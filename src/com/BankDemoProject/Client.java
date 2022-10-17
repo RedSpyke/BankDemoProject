@@ -3,12 +3,21 @@ package com.BankDemoProject;
 public class Client {
     /* Unique ID
   	Name - First name(s) - middle name - Last Name (name class)
-    Date of birth
+    Date of birth // from  Identity Card information Class
     Contact Information Class
     Identity Card information Class
+    Personal information
+    Date account creation
 
     * */
-    ClientName name;
+    private ClientName name;
+    private IdentityCardInformation identityCardInformation;
+    private ContactInformation contactInformation;
+    private String uniqueID;
+    private ClientPersonalInformation clientPersonalInformation;
+    private final String dateAccountCreation;
+
+
 
 
 
@@ -16,7 +25,7 @@ public class Client {
     public Client(){
         // Client creation - constructor invocation
      //  this.name = new ClientName();
-
+        this.dateAccountCreation = ""; // to be replaced Class Date
 
     }
 

@@ -12,7 +12,9 @@ public final class Address {
     private String postalCode; // optional ZIPCode
 
     // Constructors
+    public Address(){
 
+    }
 
     public Address(String counties, String city, String street, String number) {
         this.counties = counties;

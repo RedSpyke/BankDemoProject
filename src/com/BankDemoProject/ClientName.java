@@ -1,6 +1,7 @@
 package com.BankDemoProject;
 
 public final class ClientName {
+    // Class to be used for private individuals
     private String preferredName;
     private String firstNameS;
     private String middleName;
