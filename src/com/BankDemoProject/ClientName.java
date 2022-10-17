@@ -1,6 +1,6 @@
 package com.BankDemoProject;
 
-public class ClientName {
+public final class ClientName {
     private String preferredName;
     private String firstNameS;
     private String middleName;
@@ -8,6 +8,13 @@ public class ClientName {
 
     public ClientName(String firstNameS, String lastName) {
         this.firstNameS = firstNameS;
+        LastName = lastName;
+    }
+
+    public ClientName(String preferredName, String firstNameS, String middleName, String lastName) {
+        this.preferredName = preferredName;
+        this.firstNameS = firstNameS;
+        this.middleName = middleName;
         LastName = lastName;
     }
 

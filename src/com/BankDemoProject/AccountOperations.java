@@ -1,6 +1,5 @@
 package com.BankDemoProject;
-
-public abstract class AccountOperations {
+public interface AccountOperations {
     /*
     Transfer funds
     Withdraw
@@ -10,4 +9,5 @@ public abstract class AccountOperations {
     Payments: Bills, between accounts, to a friend
     Notifications
     * */
+
 }
