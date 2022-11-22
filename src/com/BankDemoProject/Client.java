@@ -1,6 +1,8 @@
 package com.BankDemoProject;
 
-public class Client {
+public abstract class Client {
+    // To be refactored
+
     /* Unique ID
   	Name - First name(s) - middle name - Last Name (name class)
     Date of birth // from  Identity Card information Class

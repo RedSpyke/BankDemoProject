@@ -69,13 +69,13 @@ public final class IdentityCardInformation {
 
 
     // Validation methods
-    public boolean numericalPersonalCodeValidation (){
+    private boolean numericalPersonalCodeValidation (){
         boolean result = false;
         // ...
      return result;
     }
 
-    public boolean nationalityValidation(){
+    private boolean nationalityValidation(){
         boolean result = false;
         // ...
         return result;

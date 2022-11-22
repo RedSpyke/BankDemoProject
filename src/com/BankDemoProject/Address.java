@@ -9,11 +9,11 @@ public final class Address {
     private String entrance;
     private String floor;
     private String apartment;
-    private String postalCode; // optional ZIPCode
+    private String postalCode; // optional ZIPCode - method validation
 
     // Constructors
     public Address(){
-
+        // test constructor
     }
 
     public Address(String counties, String city, String street, String number) {
